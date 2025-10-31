@@ -1,0 +1,31 @@
+{
+  "name": "fidely-plus",
+  "version": "1.0.0",
+  "description": "Sistema de Fidelidade para Lanchonetes - Fidely+",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "pinia": "^2.1.7",
+    "qrcode": "^1.5.3",
+    "@headlessui/vue": "^1.7.19",
+    "@heroicons/vue": "^2.1.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.4.2",
+    "vue-tsc": "^2.0.6",
+    "vite": "^5.1.6",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19"
+  }
+}
+
+
