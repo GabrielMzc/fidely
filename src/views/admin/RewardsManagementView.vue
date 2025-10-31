@@ -153,7 +153,7 @@ const openCreateModal = () => {
 
 const editReward = (reward: Reward) => {
   editingReward.value = reward
-  form.value = { ...reward }
+  form.value = { ...reward, terms: reward.terms || '' }
   showModal.value = true
 }
 

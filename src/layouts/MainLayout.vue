@@ -179,7 +179,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
 import { 
   HomeIcon, 
@@ -200,7 +200,6 @@ import { useAuthStore } from '@/stores/authStore'
 import ToastNotifications from '@/components/ToastNotifications.vue'
 
 const route = useRoute()
-const router = useRouter()
 const { isDark, toggleDarkMode } = useDarkMode()
 const { user, points: userPoints, logout } = useAuth()
 const authStore = useAuthStore()

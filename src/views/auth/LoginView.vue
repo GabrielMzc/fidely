@@ -99,7 +99,7 @@ import { useNotifications } from '@/composables/useNotifications'
 
 const router = useRouter()
 const { login } = useAuth()
-const { validators, validateField: validate, errors, clearError } = useFormValidation()
+const { validators, validateField: validate, errors } = useFormValidation()
 const { success, error: showError } = useNotifications()
 
 const loading = ref(false)

@@ -257,7 +257,6 @@ import {
   UserPlusIcon,
   ShoppingBagIcon,
   GiftIcon,
-  QrCodeIcon,
   BoltIcon,
   ShieldCheckIcon,
   HeartIcon,

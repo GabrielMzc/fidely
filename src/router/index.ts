@@ -164,7 +164,7 @@ const routes: RouteRecordRaw[] = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(_to, _from, savedPosition) {
     if (savedPosition) {
       return savedPosition
     } else {
@@ -174,7 +174,7 @@ const router = createRouter({
 })
 
 // ==================== GUARDS DE NAVEGAÇÃO ====================
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _from, next) => {
   // Atualiza título da página
   document.title = to.meta.title 
     ? `${to.meta.title} | Fidely+` 
